@@ -232,4 +232,55 @@ class GameTests: XCTestCase {
         XCTAssertTrue(game.complete())
     }
     
+    func testGetPointsPlayer1() {
+        game.addPointToPlayer1()
+        XCTAssertEqual(game.getPointsPlayer1(), 1, "P1 has 1 point")
+        game.addPointToPlayer1()
+        XCTAssertEqual(game.getPointsPlayer1(), 2, "P1 has 2 points")
+    }
+    
+//    func testResetPointsPlayer1() {
+//        game.addPointToPlayer1()
+//        game.addPointToPlayer1()
+//        game.resetPointsPlayer1()
+//        XCTAssertEqual(game.getPointsPlayer1(), 0, "P1 has 0 points")
+//    }
+    
+    func testGetPointsPlayer2() {
+        game.addPointToPlayer2()
+        XCTAssertEqual(game.getPointsPlayer2(), 1, "P2 has 1 point")
+        game.addPointToPlayer2()
+        game.addPointToPlayer2()
+        XCTAssertEqual(game.getPointsPlayer2(), 3, "P2 has 3 points")
+    }
+    
+//    func testResetPointsPlayer2() {
+//        game.addPointToPlayer2()
+//        game.addPointToPlayer2()
+//        game.resetPointsPlayer2()
+//        XCTAssertEqual(game.getPointsPlayer2(), 0, "P2 has 0 points")
+//    }
+    
+    func testPlayer1Won() {
+        game.addPointToPlayer1()
+        game.addPointToPlayer1()
+        game.addPointToPlayer2()
+        game.addPointToPlayer1()
+        game.addPointToPlayer2()
+        game.addPointToPlayer1()
+        let gameWon = game.player1Won()
+        XCTAssertTrue(gameWon, "P1 has won the game")
+    }
+    
+    func testPlayer2Won() {
+        game.addPointToPlayer1()
+        game.addPointToPlayer1()
+        game.addPointToPlayer2()
+        game.addPointToPlayer2()
+        game.addPointToPlayer2()
+        game.addPointToPlayer2()
+        let gameWon = game.player2Won()
+        XCTAssertTrue(gameWon, "P2 has won the game")
+    }
 }
+	

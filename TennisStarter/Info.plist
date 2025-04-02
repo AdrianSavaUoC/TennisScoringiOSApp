@@ -36,5 +36,11 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSCalendarsUsageDescription</key>
+	<string>Please allow access to your Calendar</string>
+	<key>NSRemindersUsageDescription</key>
+	<string>Please allow access to your Reminders</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Please allow acces to your location in order to determine the Country</string>
 </dict>
 </plist>

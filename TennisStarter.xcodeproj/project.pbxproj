@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,6 +18,29 @@
 		BBA6F8E51B26E78E006642BC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBA6F8E31B26E78E006642BC /* LaunchScreen.xib */; };
 		BBA6F8FB1B26E81E006642BC /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA6F8FA1B26E81E006642BC /* Game.swift */; };
 		BBA6F8FD1B26E86B006642BC /* GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA6F8FC1B26E86B006642BC /* GameTests.swift */; };
+		EC3BD67A2D8A444800162CFC /* MatchesHistoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3BD6792D8A444800162CFC /* MatchesHistoryTests.swift */; };
+		EC3BD67C2D8A481C00162CFC /* HistoryViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3BD67B2D8A481C00162CFC /* HistoryViewControllerTests.swift */; };
+		EC4813362D87C63700204464 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4813352D87C63700204464 /* HistoryViewController.swift */; };
+		EC4813372D87C63700204464 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4813352D87C63700204464 /* HistoryViewController.swift */; };
+		EC4813392D88C2E100204464 /* MatchesHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4813382D88C2E100204464 /* MatchesHistory.swift */; };
+		EC48133A2D88C2E100204464 /* MatchesHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4813382D88C2E100204464 /* MatchesHistory.swift */; };
+		EC49E0702D593DFB005E62CC /* Set.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC49E06F2D593DEB005E62CC /* Set.swift */; };
+		EC49E0712D593DFB005E62CC /* Set.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC49E06F2D593DEB005E62CC /* Set.swift */; };
+		EC49E0732D5950C3005E62CC /* TieBreak.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC49E0722D5950C3005E62CC /* TieBreak.swift */; };
+		EC49E0742D5950C3005E62CC /* TieBreak.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC49E0722D5950C3005E62CC /* TieBreak.swift */; };
+		EC49E0812D598107005E62CC /* SetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC49E0802D598107005E62CC /* SetTests.swift */; };
+		EC49E0832D5C3E5E005E62CC /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC49E0822D5C3E5E005E62CC /* Match.swift */; };
+		EC49E0842D5C3E5E005E62CC /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC49E0822D5C3E5E005E62CC /* Match.swift */; };
+		EC9727EE2D99EEC200A3EDF2 /* CountryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9727ED2D99EEC200A3EDF2 /* CountryManager.swift */; };
+		EC9727EF2D99EEC200A3EDF2 /* CountryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9727ED2D99EEC200A3EDF2 /* CountryManager.swift */; };
+		ECB78E6E2D961CAE008CBB8D /* CalendarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB78E6D2D961CAE008CBB8D /* CalendarManager.swift */; };
+		ECB78E6F2D961CAE008CBB8D /* CalendarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB78E6D2D961CAE008CBB8D /* CalendarManager.swift */; };
+		ECB78E712D961CDC008CBB8D /* FixtureDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB78E702D961CDC008CBB8D /* FixtureDetails.swift */; };
+		ECB78E722D961CDC008CBB8D /* FixtureDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB78E702D961CDC008CBB8D /* FixtureDetails.swift */; };
+		ECF999052D5D868C00D8F78F /* MatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF999042D5D868C00D8F78F /* MatchTests.swift */; };
+		ECF9990F2D5DA49800D8F78F /* TieBreakTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF9990E2D5DA49800D8F78F /* TieBreakTests.swift */; };
+		ECF9996D2D6285AC00D8F78F /* ExtScrViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF9996C2D62858600D8F78F /* ExtScrViewController.swift */; };
+		ECF9996E2D6285AC00D8F78F /* ExtScrViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF9996C2D62858600D8F78F /* ExtScrViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +66,20 @@
 		BBA6F8EF1B26E78E006642BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBA6F8FA1B26E81E006642BC /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		BBA6F8FC1B26E86B006642BC /* GameTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameTests.swift; sourceTree = "<group>"; };
+		EC3BD6792D8A444800162CFC /* MatchesHistoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesHistoryTests.swift; sourceTree = "<group>"; };
+		EC3BD67B2D8A481C00162CFC /* HistoryViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewControllerTests.swift; sourceTree = "<group>"; };
+		EC4813352D87C63700204464 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		EC4813382D88C2E100204464 /* MatchesHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesHistory.swift; sourceTree = "<group>"; };
+		EC49E06F2D593DEB005E62CC /* Set.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Set.swift; sourceTree = "<group>"; };
+		EC49E0722D5950C3005E62CC /* TieBreak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TieBreak.swift; sourceTree = "<group>"; };
+		EC49E0802D598107005E62CC /* SetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetTests.swift; sourceTree = "<group>"; };
+		EC49E0822D5C3E5E005E62CC /* Match.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
+		EC9727ED2D99EEC200A3EDF2 /* CountryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryManager.swift; sourceTree = "<group>"; };
+		ECB78E6D2D961CAE008CBB8D /* CalendarManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarManager.swift; sourceTree = "<group>"; };
+		ECB78E702D961CDC008CBB8D /* FixtureDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixtureDetails.swift; sourceTree = "<group>"; };
+		ECF999042D5D868C00D8F78F /* MatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchTests.swift; sourceTree = "<group>"; };
+		ECF9990E2D5DA49800D8F78F /* TieBreakTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TieBreakTests.swift; sourceTree = "<group>"; };
+		ECF9996C2D62858600D8F78F /* ExtScrViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtScrViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,13 +121,22 @@
 		BBA6F8D71B26E78D006642BC /* TennisStarter */ = {
 			isa = PBXGroup;
 			children = (
+				ECF9996C2D62858600D8F78F /* ExtScrViewController.swift */,
 				BBA6F8DA1B26E78E006642BC /* AppDelegate.swift */,
-				BBA6F8DC1B26E78E006642BC /* ViewController.swift */,
 				BBA6F8DE1B26E78E006642BC /* Main.storyboard */,
 				BBA6F8E11B26E78E006642BC /* Images.xcassets */,
 				BBA6F8E31B26E78E006642BC /* LaunchScreen.xib */,
 				BBA6F8D81B26E78D006642BC /* Supporting Files */,
 				BBA6F8FA1B26E81E006642BC /* Game.swift */,
+				EC49E06F2D593DEB005E62CC /* Set.swift */,
+				EC49E0822D5C3E5E005E62CC /* Match.swift */,
+				EC49E0722D5950C3005E62CC /* TieBreak.swift */,
+				BBA6F8DC1B26E78E006642BC /* ViewController.swift */,
+				EC4813352D87C63700204464 /* HistoryViewController.swift */,
+				EC4813382D88C2E100204464 /* MatchesHistory.swift */,
+				ECB78E6D2D961CAE008CBB8D /* CalendarManager.swift */,
+				ECB78E702D961CDC008CBB8D /* FixtureDetails.swift */,
+				EC9727ED2D99EEC200A3EDF2 /* CountryManager.swift */,
 			);
 			path = TennisStarter;
 			sourceTree = "<group>";
@@ -109,6 +155,11 @@
 			children = (
 				BBA6F8EE1B26E78E006642BC /* Supporting Files */,
 				BBA6F8FC1B26E86B006642BC /* GameTests.swift */,
+				ECF999042D5D868C00D8F78F /* MatchTests.swift */,
+				EC49E0802D598107005E62CC /* SetTests.swift */,
+				ECF9990E2D5DA49800D8F78F /* TieBreakTests.swift */,
+				EC3BD6792D8A444800162CFC /* MatchesHistoryTests.swift */,
+				EC3BD67B2D8A481C00162CFC /* HistoryViewControllerTests.swift */,
 			);
 			path = TennisStarterTests;
 			sourceTree = "<group>";
@@ -165,13 +216,13 @@
 		BBA6F8CD1B26E78D006642BC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1430;
 				ORGANIZATIONNAME = "University of Chester";
 				TargetAttributes = {
 					BBA6F8D41B26E78D006642BC = {
 						CreatedOnToolsVersion = 6.2;
-						DevelopmentTeam = FH8M85Z3U4;
 						LastSwiftMigration = 1020;
 					};
 					BBA6F8E91B26E78E006642BC = {
@@ -228,9 +279,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC49E0702D593DFB005E62CC /* Set.swift in Sources */,
+				ECB78E722D961CDC008CBB8D /* FixtureDetails.swift in Sources */,
+				EC9727EF2D99EEC200A3EDF2 /* CountryManager.swift in Sources */,
+				ECF9996D2D6285AC00D8F78F /* ExtScrViewController.swift in Sources */,
 				BBA6F8DD1B26E78E006642BC /* ViewController.swift in Sources */,
+				EC49E0732D5950C3005E62CC /* TieBreak.swift in Sources */,
 				BBA6F8FB1B26E81E006642BC /* Game.swift in Sources */,
 				BBA6F8DB1B26E78E006642BC /* AppDelegate.swift in Sources */,
+				EC48133A2D88C2E100204464 /* MatchesHistory.swift in Sources */,
+				EC49E0832D5C3E5E005E62CC /* Match.swift in Sources */,
+				EC4813372D87C63700204464 /* HistoryViewController.swift in Sources */,
+				ECB78E6E2D961CAE008CBB8D /* CalendarManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,7 +298,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC3BD67C2D8A481C00162CFC /* HistoryViewControllerTests.swift in Sources */,
+				EC9727EE2D99EEC200A3EDF2 /* CountryManager.swift in Sources */,
+				EC4813392D88C2E100204464 /* MatchesHistory.swift in Sources */,
+				EC49E0812D598107005E62CC /* SetTests.swift in Sources */,
+				EC49E0712D593DFB005E62CC /* Set.swift in Sources */,
+				EC49E0842D5C3E5E005E62CC /* Match.swift in Sources */,
+				ECF999052D5D868C00D8F78F /* MatchTests.swift in Sources */,
 				49F4A80B1FFD36F6004C17A9 /* ViewController.swift in Sources */,
+				EC3BD67A2D8A444800162CFC /* MatchesHistoryTests.swift in Sources */,
+				EC4813362D87C63700204464 /* HistoryViewController.swift in Sources */,
+				ECB78E6F2D961CAE008CBB8D /* CalendarManager.swift in Sources */,
+				ECF9990F2D5DA49800D8F78F /* TieBreakTests.swift in Sources */,
+				EC49E0742D5950C3005E62CC /* TieBreak.swift in Sources */,
+				ECB78E712D961CDC008CBB8D /* FixtureDetails.swift in Sources */,
+				ECF9996E2D6285AC00D8F78F /* ExtScrViewController.swift in Sources */,
 				496B3CDE1CE0BAA80090A701 /* Game.swift in Sources */,
 				BBA6F8FD1B26E86B006642BC /* GameTests.swift in Sources */,
 			);
@@ -322,7 +396,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -372,10 +446,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.0;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -385,10 +460,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = FH8M85Z3U4;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = TennisStarter/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = uk.ac.chester.TennisStarterSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -399,10 +478,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = FH8M85Z3U4;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = TennisStarter/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = uk.ac.chester.TennisStarterSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -420,7 +503,11 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = TennisStarterTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.chester.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -435,7 +522,11 @@
 				DEVELOPMENT_TEAM = MUJAAJUB5Z;
 				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = TennisStarterTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.chester.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
