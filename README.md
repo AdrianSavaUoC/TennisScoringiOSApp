@@ -1,4 +1,4 @@
-An iPhone application that will keep track of and calculate scores for a tennis 
+An iPhone application that keeps track of and calculate scores for a tennis 
 match. 
 This app:
 • Correctly displays the score for the current game, the current set, the match (i.e., total sets won), and 
@@ -34,3 +34,4 @@ where the match is taking place and notify the user of the location (country) fo
 • Adds new UI elements to display the future match and location.  All new elements are visible.  
 The location element is updateable to show the new location when the user selects a new 
 match. 
+• Includes comprehensive unit tests
